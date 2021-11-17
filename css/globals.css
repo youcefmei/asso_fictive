@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;0,900;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  color: #000;
+}
+
+html, p {
+  margin: 0 auto;
+}
+
+body {
+  max-width: 1024px;
+  margin: 0 2px;
+}
+
+a, a:visited, a:hover, a:active {
+  text-decoration: none;
+}
+
+.hide-this {
+  display: none;
+}
+
+.active-page {
+  background-color: #dddddddd;
+}
+
+.fa-facebook, .fa-facebook-square {
+  color: #3b5998;
+}
+
+.fa-twitter, .fa-twitter-square {
+  color: #00aced;
+}
+
+.fa-instagram {
+  color: #517fa4;
+}
+/*# sourceMappingURL=globals.css.map */

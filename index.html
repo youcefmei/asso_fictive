@@ -4,34 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Asso</title>
-    <meta name="description" content="Site d'association">
+    <title>Code & Vie | Accueil</title>
+    <meta name="description" content="Code & Vie est une association visant à promouvoir la programmation et le développement informatique">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
     <header>
-        <nav>
+        <div class="top-header">
+            <div id="menu-burger" class="menu-burger"></div>
+        </div>
+        <hr>
+        <nav >
             <div class="titre">
-                <h1><span>C</span>ode<span> & </span><span>V</span>ie</h1>
+                <a href="#"><h1><span>C</span>ode<span> & </span><span>V</span>ie</h1></a>                
             </div>
-            <ul id="nav-bar-categories">
-                <li>ACCUEIL</li>
-                <li>ACTUALITES</li>
-                <li>CONTACT</li>
+            <ul id="nav-bar-categories" class="hide-this">                
+                <li class="active-page"><a href="#" >ACCUEIL</a></li>
+                <li><a href="/pages/actu.html">ACTUALITES</a></li>
+                <li><a href="/pages/contact.html">CONTACT</a></li>
             </ul>
-            <div id="menu-burger"></div>
         </nav>
+        <hr>
+       
     </header>
 
-    <!-- <hr> -->
-
     <main>
-        <div class="bg-img"></div>
-
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo provident id corporis maiores cumque, illum tenetur soluta doloribus non laborum cum molestiae nemo in magnam sunt inventore voluptates vero? Consectetur veniam earum facere blanditiis. Temporibus incidunt veniam laborum dolores modi repudiandae, amet dolorem nemo tempora alias laudantium officia reprehenderit vero, nesciunt distinctio quis commodi, asperiores optio! Animi velit inventore ab reprehenderit aspernatur fuga nulla provident iusto consequuntur corporis sunt cupiditate, ducimus labore reiciendis numquam, libero quibusdam dicta voluptatem, consectetur exercitationem vero? Voluptates tenetur commodi sint. Sequi magni nesciunt perspiciatis adipisci fuga doloribus illum tempore veritatis incidunt impedit cum, enim consequatur ullam placeat consequuntur obcaecati molestias! Quod, animi dolorum ipsa quam rem aut veritatis ducimus, expedita quas atque ipsum asperiores. Aspernatur hic obcaecati ipsam quos quasi qui error ex, voluptatibus laborum repellendus eius, asperiores eos unde, sunt eveniet. Beatae, tempora maiores dolores dignissimos iusto consequuntur recusandae quia optio totam quae. Est deleniti quo veritatis ea. Eaque omnis temporibus laudantium esse distinctio ad voluptatum, fugit a nam veritatis ea doloremque atque quia, error, optio dolorem assumenda consequuntur corporis nisi modi! Odio laudantium fuga iure possimus ipsam commodi saepe laborum repellat, quo expedita dolor doloribus. Et, qui? Nemo atque mollitia earum exercitationem consequuntur.</p>
-        <p></p>
+        <div class="img-container">
+            <div class="bg-img"></div>
+        </div>
+        <div class="subtitle-container">
+            <h2>Qui sommes nous ?</h2>
+        </div>
+        
+        <p><strong>Code & Vie</strong> est une association visant à <strong>promouvoir la programmation et le développement informatique</strong>.</p>
+        <p>Quo provident id corporis maiores cumque, illum tenetur soluta doloribus non laborum cum molestiae nemo in magnam sunt inventore voluptates vero</p>
+        <br>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt corporis harum dolore ipsum atque illum ad quos velit enim ipsam praesentium at, dignissimos nobis alias, quasi illo molestiae odit animi necessitatibus beatae! Minus, facilis distinctio?</p>
     </main>
 
 
@@ -41,10 +51,7 @@
             <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook"></i></a>
             <a href="https://www.instagram.com/?hl=fr" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
             <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>        
-            
-            
         </div>
-
     </footer>
     <script src="js/main.js"></script>
 </body>

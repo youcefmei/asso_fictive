@@ -1,0 +1,32 @@
+
+// *************************
+// FOOTER
+// *************************
+$color_footer : #fbf8f2;
+
+footer{ 
+    display: flex;
+    flex-direction: column;
+    background-color: $color_footer;
+    align-items: center;
+    border-top: solid 1px #000;
+    justify-content: center;
+    min-height: 10vh;
+    margin-top: 1em;
+    & span{
+        margin-top: 10px;
+    }
+
+    .social{        
+        display: flex;
+        justify-content: space-around;
+        font-size:28px;
+        & i{
+            margin: 8px 10px;
+            &:hover{
+                color: #935889;
+            }
+        }
+        
+    }
+}
