@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code & Vie | Contact</title>
+    <meta name="description" content="Code & Vie , nous contacter">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="top-header">
+            <div id="menu-burger" class="menu-burger"></div>
+        </div>
+        <hr>
+        <nav >
+            <div class="titre">
+                <a href="#"><h1><span>C</span>ode<span> & </span><span>V</span>ie</h1></a>                
+            </div>
+            <ul id="nav-bar-categories" class="hide-this">                
+                <li><a href="../index.html" >ACCUEIL</a></li>
+                <li><a href="../pages/actu.html">ACTUALITES</a></li>
+                <li class="active-page"><a href="#">CONTACT</a></li>
+            </ul>
+        </nav>
+        <hr>
+       
+    </header>
+
+    <main>
+        <h2>Nous contacter</h2>
+        <form action="" method="post">
+          <div class="form-row">
+            <label for="lastname">Votre nom: </label>
+            <input type="text" name="lastname" id="lastname" required>
+          </div>   
+          <div class="form-row">
+            <label for="firstname">Votre prénom: </label>
+            <input type="text" name="firstname" id="firstname" required>
+          </div>   
+          
+          <div class="form-row">
+            <label for="email">Votre adresse Email: </label>
+            <input type="email" name="email" id="email" required>
+          </div>
+          <div class="form-row">
+            <label for="text-content" class="label-textarea">Contenu: </label>
+            <textarea name="text-content" id="text-content"  rows="12"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Envoyer</button>
+
+        </form>
+
+    </main>
+
+
+    <footer>
+        <span>&copy;2021 Tous droits réservés</span>
+        <div class="social">
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/?hl=fr" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>        
+        </div>
+    </footer>
+    <script src="../js/main.js"></script>
+</body>
+</html>

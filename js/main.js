@@ -18,4 +18,5 @@ window.addEventListener("load",(e)=>{
         isMenuHidden= !isMenuHidden
         navbar.classList.toggle("hide-this")
     })
+
 })

@@ -1,4 +1,7 @@
 @media screen and (min-width: 576px) {
+  header .top-header {
+    height: 70px;
+  }
   body {
     margin: 0 auto;
   }
@@ -19,6 +22,9 @@
   }
   nav .titre {
     margin: 15px 0 15px 3px;
+  }
+  nav .titre:hover {
+    outline: 0;
   }
   nav ul {
     background-color: transparent;
@@ -44,8 +50,24 @@
   #menu-burger {
     display: none;
   }
-  main .bg-img {
-    width: 100vw;
+  main .card-index {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  main .card .main-img {
+    width: 35%;
+    margin: auto;
+  }
+  main .col-row {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  form label {
+    margin-left: 0;
   }
   footer {
     -webkit-box-orient: horizontal;

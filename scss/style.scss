@@ -6,20 +6,21 @@ main {
     background-color: $color_second;
     & .img-container{
         display: flex;
-        max-width: 1024px;    
+        max-width: 1280px;    
     }
     & .bg-img{ 
         display: block; 
-        width: 100vw;
-        max-width: 1024px;
+        width: 100%;
+        max-width: 1280px;
         height: 100vw/$ratio_img; 
-        max-height: 1024px/$ratio_img;
-        background-image: url("../img/code/code_back_cropped.jpg");
+        max-height: 1280px/$ratio_img;
+        // background-image: url("../img/code/code_back_cropped.jpg");
+        background-image: url("../img/code/ball-63527_960_720\ 1.jpg");
         background-size: contain;
         background-repeat: no-repeat;
     } 
-   
-    .subtitle-container{
+
+    & .subtitle-container{
         margin: 1em 1em; 
         display:flex;
         border-radius: 5px;
@@ -30,7 +31,152 @@ main {
             font-size: 20px; 
         }
     }
+
+
+    // ACTU
+    & .title-actu{
+        text-align: center;
+        text-decoration: underline;
+    }
+
+    & .card{
+        flex-direction: column-reverse;
+        padding: 5px;
+        border:0px;
+        box-shadow: none ;
+        & .main-text{
+            margin: auto;
+            padding: 20px;
+        }
+        & .main-img{
+            width: 80%;
+            margin: auto;
+            border-radius: 5px;
+        }
+    }
+
+    & p {
+        line-height: 1.4;
+        margin-block-start: 0.4em;
+        margin-block-end: 0.4em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        & strong{
+            font-weight: normal;
+        }
+    } 
+
+
+
 }
+
+// CARDS
+
+h3{
+    // text-decoration: underline;
+    // text-align: center;
+}
+.col-row{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2em;
+    
+}
+
+.card{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border: solid 1px #000;
+    border-radius: 5px;
+    max-width:96vw;
+    margin: auto;
+    &-img{
+        display: flex;
+        max-height:50vh;
+        max-width:96vw;
+        object-fit: contain;
+        order:3;
+        box-shadow: 2px 1px 1px rgb(66, 65, 65) ;
+        & img{
+            width:96%;
+            object-fit: contain;
+            margin: 5px auto 5px auto;
+        }
+    }
+    &-title{
+        text-align: center;
+        margin-bottom: 2.2em;
+        font-size: larger;
+        font-weight: 700;
+        letter-spacing: 0.09em;
+    }
+    & span{
+        text-decoration: underline;
+    }
+    &-loc,&-content{
+        margin-top:0.4em ;
+        margin-bottom:0.4em ;
+    }
+    &-text-content{
+        order:2;
+        padding-left: 0.50em;
+        padding-right: 0.50em;
+    }
+    .link-container{
+        text-align: center;
+    }
+    & a{
+        background-color: #409be6;
+        border: solid 1px #000;
+        text-align: center;
+        display: inline-block;
+        padding: 0.3em;
+        color:#fff;
+    }
+    
+}
+
+// CONTACT
+
+h2{
+    text-align: center;
+}
+
+form{
+    
+    & label{
+        max-width: 980px;
+        margin-left: 5vw;
+        display: block;
+        margin-bottom: 0.4em;
+        margin-top: 0.4em;
+        font-size: larger;
+    }
+    
+    
+    & input, textarea{
+        
+        display: block;
+        min-height: 2.5em;
+        width:96%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    & button{
+
+        display: block;
+        margin-top: 1.4em;
+        margin-left: auto;
+        margin-right: auto;
+        width: 28vw;
+        height: 5vh;
+        font-size: 1em;
+        background-color: azure
+    }
+}
+
 
 // Footer
 @import "footer.scss";   

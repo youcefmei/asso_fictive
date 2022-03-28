@@ -7,14 +7,16 @@
 header{
     & .top-header{
         display:flex;
-        height:55px;
+        height:3em;
         background-color: #3b5998;
+        // background-color: #f8f8f8;
     }
 }
 
 nav {
     display: flex;
-    position: relative;   
+    position: relative; 
+    letter-spacing: 0.943em;  
     & .titre {
         display: flex;
         // margin: 20px 0 20px 3px;
@@ -22,8 +24,9 @@ nav {
         border-top: solid 6px #bbb;;
         border-bottom: solid 6px #bbb;;
         border-radius: 1px;
+        outline-offset: .6rem;
     }
-    & h1{
+    & h1 {
 
         padding:0 10px;
         font-family: 'Bodoni Moda', serif;
@@ -80,7 +83,7 @@ nav {
 $burger_width : 20px;
 $burger_part_height : 0.125em;
 $burger_space : 5px;
-
+ 
 
 $burger_close : 0;
 .menu{
